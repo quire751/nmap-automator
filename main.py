@@ -6,7 +6,6 @@ import psutil as util
 import socket as sock
 passer = False
 
-
 if shu.which("nmap"): # Checks Whether you even have nmap Installed.
     passer = True
 else:
