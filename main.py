@@ -26,7 +26,6 @@ ip = mes.getsockname()[0]
 
 # Get your Subnet
 for i_name, address in addres:
-    print(i_name, address)
     for addr in address:
         if addr.address == ip:
             mask = addr.netmask
