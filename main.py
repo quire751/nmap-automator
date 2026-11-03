@@ -23,7 +23,6 @@ mes.connect(("8.8.8.8", 80))
 mask = None
 
 ip = mes.getsockname()[0]
-print(ip)
 
 # Get your Subnet
 for i_name, address in addres:
