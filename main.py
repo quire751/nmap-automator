@@ -15,7 +15,7 @@ if not passer:
     print("nmap not found!")
     sys.exit(1)
 
-# Send a UDP Packet to find out what your Address is.
+# UDP Thing
 mes = sock.socket(sock.AF_INET, sock.SOCK_DGRAM)
 addres = util.net_if_addrs().items()
 mes.connect(("8.8.8.8", 80))
